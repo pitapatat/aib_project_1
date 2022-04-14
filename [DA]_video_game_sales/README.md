@@ -42,5 +42,7 @@
      
 :heavy_check_mark: 게임플랫폼의 변화와 지역별 특징을 함께 고려하여 판매 계획 수립해야 함 
 
-### 5. 추가 변동사항(22.01~)
-- 동일 데이터(결측치 부분 상이)분석을 통한 데이터 시각화 보완 : [ver_2](https://github.com/pitapatat/Data_Analysis_Visualization/blob/main/%5BDA%5D_video_game_sales/%5BDA%5D_video_game_sales_ver_2.ipynb)
+### 5. 보완점
+* 추가 변동사항(22.01~)
+   - 동일 데이터(결측치 부분 상이)분석을 통한 데이터 시각화 보완 : [ver_2](https://github.com/pitapatat/Data_Analysis_Visualization/blob/main/%5BDA%5D_video_game_sales/%5BDA%5D_video_game_sales_ver_2.ipynb)
+ 
