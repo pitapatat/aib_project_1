@@ -26,17 +26,16 @@
 
 ### 4. 분석 결과
 
-:heavy_check_mark: 연도별 게임 트렌드 
-<center><img width = '600' height = '400' alt="month-cat" src="https://user-images.githubusercontent.com/83687942/163317294-be401a80-d0d9-4218-9e5d-97aa7895bc2c.png"></center>
+:heavy_check_mark: 연도별 게임 트렌드 현황 및 추이 
+
+<center><img width = '1000' height = '700' src="https://user-images.githubusercontent.com/83687942/163402190-aa18ac62-21e0-4cb3-a2b9-5969de9a3b13.jpg"></center>
    
-:heavy_check_mark: 연도별 게임 장르별 출고량 
-<center><img width="600" height= '400' alt="week-flow" src="https://user-images.githubusercontent.com/83687942/163317762-f0bfc114-9587-476c-bb42-47478e6baf3f.png"></center>
-
 :heavy_check_mark: 지역별 장르별 게임 출고량 
-<center><img width="600" height= '400' alt="month-top10" src="https://user-images.githubusercontent.com/83687942/163317849-3a266931-4b72-4463-85aa-4e28b4bc21af.png"></center>
+<center><img width="1000" height= '400' alt="month-top10" src="https://user-images.githubusercontent.com/83687942/163402311-81c99a6c-74f9-490b-b09b-0ed3f902e063.jpg"></center>
 
-:heavy_check_mark: 출고량이 높은 게임 TOP10 
-<center><img width="500" height= '300' src = 'https://user-images.githubusercontent.com/83687942/163318431-ddad0068-c093-46a0-b234-43ab6b739eb2.PNG'></center>
+:heavy_check_mark: 지역별 출고량이 높은 게임 TOP10 
+<center><img width="700" height= '200' src = 'https://user-images.githubusercontent.com/83687942/163402628-ee7a1505-0f1a-4dbf-aeb8-d82feddd2176.jpg'></center>
+<center><img width="700" height= '200' src = 'https://user-images.githubusercontent.com/83687942/163403051-df311f69-0163-4ebe-a58a-a6726a1e0538.jpg'></center>
 
 :heavy_check_mark: 전체 출고량 중 미국이 차지하는 비중이 크며 지역별로 선호하는 게임의 특성이 상이함 
      
