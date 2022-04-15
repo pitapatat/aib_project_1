@@ -1,6 +1,6 @@
 
 # YOUTUBE 인기동영상 데이터 분석 및 호응도 지표개발
-
+:rocket: library: pandas, seaborn, nltk
 
 
 ### 1. 배경 및 목적
@@ -18,7 +18,6 @@
 
 
 ### 3. 분석 과정
-:rocket: library: pandas, seaborn, nltk
 ```
 - 데이터 전처리 : 결측치 확인, 데이터 타입 변경, 텍스트 데이터 전처리
 - 데이터 분석 : 카테고리별/월별/주별 상/하위 인기동영상의 특징 분석 및 시각화
