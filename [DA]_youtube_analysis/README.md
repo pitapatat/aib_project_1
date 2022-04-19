@@ -33,7 +33,7 @@
 
 :heavy_check_mark: 인기 카테고리 : entertainment > people & blogs 순으로 나타나며 pets & animals 채널의 꾸준한 상승세가 두드러짐 
 
-:heavy_check_mark: 월별 특이점 : 6,7월 sports 채널 상승세 두드러짐(카타르원드컵, euro2020, 도쿄올림픽 등 스포츠 시즌에 영향으로 추정) 
+:heavy_check_mark: 월별 특이점 : 6,7월 sports 채널 상승세 두드러짐(카타르월드컵, euro2020, 도쿄올림픽 등 스포츠 시즌에 영향으로 추정) 
 <center><img width="1000" height= '300' alt="month-flow" src="https://user-images.githubusercontent.com/83687942/163302783-5a119f01-23c9-4c6b-8069-6cde4d8b4a70.png"></center>
 <center><img width="1000" height= '300' alt="month-cat" src="https://user-images.githubusercontent.com/83687942/163302876-ef211500-aafe-44ca-9d5d-99196b0e4fd3.png"></center>
    
