@@ -77,5 +77,21 @@
 ```
 - '22.05. plotly와 streamlit 라이브러리를 활용해 인터렉티브하게 시각화하고 대시보드 형태로 구현 
 ```
+◻ HOW TO RUN 
+```
+   git clone [주소] 
+      ...
+   cd ./youtube
+   
+   pip install -r requirements.txt
+   
+   streamlit run app.py
+```
+
+   
+
+
+
+
 
 
