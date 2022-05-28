@@ -9,6 +9,8 @@
 - 시청자의 호응도(engagement) 판단 지표 개발 
 - (추가) streamlit을 통해 대시보드 구성
 ```
+<image  src = 'https://user-images.githubusercontent.com/83687942/170807631-17521711-ba15-4fb1-a0d2-b87b2ab03cd6.gif'>
+
 
 ### 2. 데이터셋 소개
 ```
@@ -75,6 +77,5 @@
 ```
 - '22.05. plotly와 streamlit 라이브러리를 활용해 인터렉티브하게 시각화하고 대시보드 형태로 구현 
 ```
-```
-streamlit run app.py 
-```
+
+
