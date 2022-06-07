@@ -8,8 +8,6 @@
 + 뉴스 주제에 따른 헤드라인의 키워드 분석 -- (빈도수 기준) 주요 키워드 분석 및 시각화
 + LDA(Latent Dirichlet Allocation)방법을 활용한 토픽모델링 -- gensim, pyLDAvis 라이브러리 활용 
 
-<image  src = 'https://user-images.githubusercontent.com/83687942/170807631-17521711-ba15-4fb1-a0d2-b87b2ab03cd6.gif'>
-
 ----
 ### 2. [데이터셋](https://dacon.io/competitions/official/235747/data) 소개
 
@@ -21,17 +19,22 @@
 ----
 ### 3. 분석 과정
 + 데이터 전처리 : 불용어 제거, 문장을 형태소 단위로 분리, 1글자 단어는 제거
-   + 
-   'https://www.ranks.nl/stopwords/korean'
+     
+     <img width="450" height = "200" src="https://user-images.githubusercontent.com/83687942/172346937-b431c755-011d-4259-ae4a-7ad5473c8d51.png"><img width="350"  height = "200" src="https://user-images.githubusercontent.com/83687942/172347289-d3e79507-4239-4746-b0af-8e1d4e725f3c.png">
 
 + 데이터 분석 : 단어 빈도수 분석 후 불용어 제거, 과정의 반복
    + 모든 주제에서 반복되는 단어는 분석에 무의미하므로 불용어로 취급하여 제거 
+  
+      <img width="700" height = "250" src="https://user-images.githubusercontent.com/83687942/172348744-0e51c946-b29e-4c47-bc49-afcf63dc9c82.png">
 
 + 데이터 시각화 : wordcloud, squarify 라이브러리를 활용하여 뉴스 주제별 키워드 시각화
+  
+  <img width="900" height = "400" src="https://user-images.githubusercontent.com/83687942/172355038-7b4869f4-29da-4f5b-8377-3c4378b5e350.png"><img width="900" height = "400" src="https://user-images.githubusercontent.com/83687942/172355201-58694925-7ab3-4377-bf7a-7049bd593fcf.png">
 
 + 토픽모델링 : LDA 방법을 활용하여 토픽 모델링 
    + 빈도가 2이상이거나 전체의 50%이상을 차지하는 단어 필터링
    + 7개의 주제로 분류
+   + chunksize 2000
  
 ----
    
