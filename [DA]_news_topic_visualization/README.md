@@ -5,9 +5,9 @@
 
 ### 1. 배경 및 목적
 
-+ 뉴스 주제와 
-+ 시청자의 호응도(engagement) 판단 지표 개발 
-+ (추가) streamlit을 통해 대시보드 구성
++ 뉴스 주제에 따른 헤드라인의 키워드 분석
+   + 빈도수 기준 주요 키워드 분석 및 시각화, 
++ 
 
 <image  src = 'https://user-images.githubusercontent.com/83687942/170807631-17521711-ba15-4fb1-a0d2-b87b2ab03cd6.gif'>
 
@@ -47,9 +47,8 @@
 
 + entertainment > people & blogs 순으로 나타나며 pets & animals 채널의 꾸준한 상승세가 두드러짐 
 
-+ 월별 특이점 : 6,7월 sports 채널 상승세 두드러짐(카타르월드컵, euro2020, 도쿄올림픽 등 스포츠 시즌에 영향으로 추정) 
-<center><img width="1000" height= '300' alt="month-flow" src="https://user-images.githubusercontent.com/83687942/163302783-5a119f01-23c9-4c6b-8069-6cde4d8b4a70.png"></center>
-<center><img width="1000" height= '300' alt="month-cat" src="https://user-images.githubusercontent.com/83687942/163302876-ef211500-aafe-44ca-9d5d-99196b0e4fd3.png"></center>
++ 데이터 특징 : 
+<center><img width="1000" src="https://user-images.githubusercontent.com/83687942/172320564-5c7f159a-26f6-4715-8133-cdf892a9b6a2.png"></center>
    
 + 주별 특이점 : 주별 카테고리의 변동폭이 크나 구성비에는 큰 변화 없음. howto & style 채널이 상위권에 자주 랭크됨 
 
