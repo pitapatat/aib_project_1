@@ -5,66 +5,46 @@
 
 ### 1. 배경 및 목적
 
-+ 뉴스 주제에 따른 헤드라인의 키워드 분석
-   + 빈도수 기준 주요 키워드 분석 및 시각화, 
-+ 
++ 뉴스 주제에 따른 헤드라인의 키워드 분석 -- (빈도수 기준) 주요 키워드 분석 및 시각화
++ LDA(Latent Dirichlet Allocation)방법을 활용한 토픽모델링 -- gensim, pyLDAvis 라이브러리 활용 
 
 <image  src = 'https://user-images.githubusercontent.com/83687942/170807631-17521711-ba15-4fb1-a0d2-b87b2ab03cd6.gif'>
 
 ----
 ### 2. [데이터셋](https://dacon.io/competitions/official/235747/data) 소개
 
-+ 뉴스 헤드라인(title) - 뉴스 주제(topic)로 구성
-+ 
++ "뉴스 헤드라인(title) - 뉴스 주제(topic)"로 구성된 45654개의 데이터셋
+   + 7개의 주제로 분류, 헤드라인의 길이는 평균 약 32자로 구성됨
+   
+     <center><img width="1000" src="https://user-images.githubusercontent.com/83687942/172320564-5c7f159a-26f6-4715-8133-cdf892a9b6a2.png"></center>
 
 ----
 ### 3. 분석 과정
-   + 데이터 전처리 : 결측치 확인, 데이터 타입(to_datetime)을 변경하여 월/주 단위 추출 후 분석
++ 데이터 전처리 : 불용어 제거, 문장을 형태소 단위로 분리, 1글자 단어는 제거
+   + 
+   'https://www.ranks.nl/stopwords/korean'
 
-   + 데이터 분석 : 카테고리별/월별/주별 상/하위 인기동영상의 특징 분석 및 시각화
++ 데이터 분석 : 단어 빈도수 분석 후 불용어 제거, 과정의 반복
+   + 모든 주제에서 반복되는 단어는 분석에 무의미하므로 불용어로 취급하여 제거 
 
-   + tag 키워드 빈도 분석 : 카테고리별/월별 tag 키워드 빈도수 분석 및 시각화
++ 데이터 시각화 : wordcloud, squarify 라이브러리를 활용하여 뉴스 주제별 키워드 시각화
 
-   + 호응도 지표 분석 : 인기동영상의 지표별 특징 및 조회수와 다른 변수 간 상관관계 분석
-
-   + 인기동영상 지표 개발 : 조회수 대비 (좋아요+싫어요)수, 구독자수 대비 조회수 외 관련 변수 가중치 부여
++ 토픽모델링 : LDA 방법을 활용하여 토픽 모델링 
+   + 빈도가 2이상이거나 전체의 50%이상을 차지하는 단어 필터링
+   + 7개의 주제로 분류
  
 ----
    
-### 4. 가설 설정
-   > - 좋아요/싫어요 수가 많을수록(higer "likes", higer "dislikes") 인기동영상에 올라갈 가능성이 높다.
-   >  - 영상 업로드 날짜와 인기동영상에 올라간 날짜(trending_on_date)의 차이가 적을수록 인기동영상에 올라갈 가능성이 높다.
-   >  - 평균 하루 조회수가 높을수록 인기동영상에 올라갈 가능성이 높다.
-   >  - 영상 길이(duration)가 짧을수록 인기동영상에 올라갈 가능성이 높다.
-   >  - 구독자수(subscribers)가 많을수록(혹은 기준 이상) 인기동영상에 올라갈 가능성이 높다.
-   >  - 카테고리별 가중치: "entertainment/music/people & blogs" 카테고리 영상일수록 인기동영상에 올라갈 가능성이 높다.
-   >  - 카테고리별 인기동영상에 높은 빈도로 나타나는 단어를 사용할수록 인기동영상에 올라갈 가능성이 높다.
-   >  - ~~tags, description 긍정적일수록 인기동영상에 올라갈 가능성이 높다.~~
-   
-----
-### 5. 분석 결과
-#### 5-1. 인기동영상 채널 특징 
+### 4. 분석 결과
+#### 4-1. 뉴스 주제별 키워드 분석 결과
 
 + entertainment > people & blogs 순으로 나타나며 pets & animals 채널의 꾸준한 상승세가 두드러짐 
+  <img src = "" width = "600" height = "300">
 
-+ 데이터 특징 : 
-<center><img width="1000" src="https://user-images.githubusercontent.com/83687942/172320564-5c7f159a-26f6-4715-8133-cdf892a9b6a2.png"></center>
-   
-+ 주별 특이점 : 주별 카테고리의 변동폭이 크나 구성비에는 큰 변화 없음. howto & style 채널이 상위권에 자주 랭크됨 
 
-<center><img width="1000" height= '300' alt="week-flow" src="https://user-images.githubusercontent.com/83687942/163304127-bbc312f6-bb14-484d-837d-21ab6898ce25.png"></center>
-<center><img width="1000" height= '300' alt="week-cat" src="https://user-images.githubusercontent.com/83687942/163304167-1f863741-fcc6-4fc9-b463-51fbb52a348f.png"></center>
++ 
 
-+ 월별 TOP10 채널 
-<center><img width="1000" height= '300' alt="month-top10" src="https://user-images.githubusercontent.com/83687942/163305727-8288615b-3b71-4096-b856-fa426cf76741.png"></center>
-
-+ 월별 tag 키워드 : "먹방", "몰카", "일상", "브이로그"는 매월 공통으로 높은 빈도로 등장하며 유행어(예: 브레이브걸스, 올림픽 등)가 tag로 주로 사용됨 
-<center><img width="1000" height= '300' alt="teg-4" src="https://user-images.githubusercontent.com/83687942/163306585-b47e6725-05fc-4383-80c5-7b71dd8d0e94.png"></center>
-
-+ 카테고리별 tag 키워드 : 카테고리별 유명 인플루언서(또는 운동선수/연예인)의 빈도가 높으며 "음식", "먹방" tag는 카테고리별 영향을 덜 받는 편임 
-<center><img width="1000" height= '300' alt="sports-tag" src="https://user-images.githubusercontent.com/83687942/163305901-308b9d49-bf3c-4b52-a3f8-73f9bac84d5e.png"></center>
-
-#### 5-2. 인기 호응도 지표 분석 
+#### 5-2. LDA 토픽모델링 결과
 + 인기동영상의 특징 - 10-15분 길이의 영상/업로드 후 시간당 1만회 조회수 & 2일 내 인기동영상 진입 & 3일 내 유지
 
 + 조회수와 높은 상관관계 지표 : 좋아요수, 싫어요수, 댓글수, 구독자수
@@ -96,22 +76,6 @@
 
    + 채널(계정) 생성 시기 데이터를 추가하고, 인기동영상의 tag, description의 긍/부정 분석을 통해 어떤 특징이 있는지 살펴보면 좋을 것 같음
    
-
-----
-### 7. 업데이트('22.05)
-   
-+ _plotly_ 와 _streamlit_ 라이브러리를 활용하여 인터렉티브하게 시각화하고 대시보드 형태로 구현 
-
-+ HOW TO RUN 
-   ```python
-      git clone [주소] 
- 
-      cd ./youtube
-   
-      pip install -r requirements.txt
-   
-      streamlit run app.py
-   ```
 
    
 
