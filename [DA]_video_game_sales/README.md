@@ -1,6 +1,7 @@
 
 
-# 다음 분기에 어떤 게임을 설계해야 할까
+# 다음 분기에 어떤 게임을 설계해야 할까 [:link:](https://github.com/pitapatat/ML_Modeling_/blob/main/business_closing/%5BML%5D_hospital_closing_prediction_v2.ipynb)
+**:rocket: library: pandas, seaborn, sklearn, imblearn(imbalanced-learn
 :rocket: library: pandas, seaborn
 
 ### 0. 목차
