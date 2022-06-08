@@ -1,16 +1,17 @@
 
 
 # 다음 분기에 어떤 게임을 설계해야 할까 [:link:](https://github.com/pitapatat/Data_Analysis_Visualization/blob/main/%5BDA%5D_video_game_sales/%5BDA%5D_video_game_sales_ver_2.ipynb)
-**:rocket: library: pandas, seaborn, sklearn, imblearn(imbalanced-learn
-:rocket: library: pandas, seaborn
+
+**:rocket: library: pandas, seaborn**
 
 ### 0. 목차
-1. [배경 및 목적](####-1-배경-및-목적)
+1. [배경 및 목적](#1-배경-및-목적)
 2. [데이터셋 소개](#2-데이터셋-소개)
 3. [분석 과정](#3-분석-과정)
 4. [분석 결과](#4-분석-결과)
 5. [한계점](#5-한계점)
 6. [기타](#6-기타)
+
 
 ### 1. 배경 및 목적
 ```
