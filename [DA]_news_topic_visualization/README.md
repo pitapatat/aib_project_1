@@ -3,14 +3,14 @@
 **:rocket: library: pandas, seaborn, BeautifulSoup, konlpy, WordCloud, squarify, gensim, pyLDAvis**
 
 ### 0. 목차
-1. [목적](#1-목적)
+1. [분석 목적](#1-분석-목적)
 2. [데이터셋](#2-데이터셋-소개)
 3. [분석 과정](#3-분석-과정)
 4. [분석 결과](#4-분석-결과)
 5. [한계점 및 보완점](#5-한계점-및-보완점)
 
 ---
-### 1. 목적
+### 1. 분석 목적
 
 + 뉴스 주제에 따른 헤드라인의 키워드 분석 -- (빈도수 기준) 주요 키워드 분석 및 시각화
 + LDA(Latent Dirichlet Allocation)방법을 활용한 토픽모델링 -- gensim, pyLDAvis 라이브러리 활용 
