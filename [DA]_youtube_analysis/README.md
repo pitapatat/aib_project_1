@@ -2,6 +2,8 @@
 # YOUTUBE 인기동영상 데이터 분석 및 호응도 지표개발
 **:rocket: library: pandas, seaborn, nltk, plotly, streamlit**
 
+### 0. 목차
+
 
 ### 1. 배경 및 목적
 
