@@ -49,18 +49,18 @@
 - 글로벌 출고량 기준 '닌텐도'의 제품(wii 시리즈, 플랫폼게임 등)이 상위에 포진됨 
 ```
 :heavy_check_mark: 연도별 게임 트렌드 현황 및 추이 
-<center><img width = '800' height = '200' src="https://user-images.githubusercontent.com/83687942/163708357-d2a5fd4c-e898-4042-80e1-0dc86aaaad46.png"></center>
+<center><img width = '1000' height = '200' src="https://user-images.githubusercontent.com/83687942/163708357-d2a5fd4c-e898-4042-80e1-0dc86aaaad46.png"></center>
 
 
 :heavy_check_mark: 시대별 지역별 게임 출고량(예: 장르별)
-<center><img width = '800' height = '400' src="https://user-images.githubusercontent.com/83687942/163708331-ad8d2356-2075-4115-9457-7b5378dd520b.png"></
+<center><img width = '1000' height = '400' src="https://user-images.githubusercontent.com/83687942/163708331-ad8d2356-2075-4115-9457-7b5378dd520b.png"></
 
 
 :heavy_check_mark: 지역별 출고량이 높은 게임 TOP10(예: 일본)
-<center><img width="500" height= '200' src = 'https://user-images.githubusercontent.com/83687942/163708417-8c07c2d7-1616-464c-88db-d1a0d28cf5cd.png'></center>
+<center><img width="600" height= '250' src = 'https://user-images.githubusercontent.com/83687942/163708417-8c07c2d7-1616-464c-88db-d1a0d28cf5cd.png'></center>
 
 :heavy_check_mark: 출고량이 높은 게임 TOP10 시각화 (예: EU)
-<center><img width="300" height= '300' src = 'https://user-images.githubusercontent.com/83687942/163713489-d9a2a24b-2b2e-457d-9ec9-e1ae6722e00c.png'></center>
+<center><img width="400" height= '400' src = 'https://user-images.githubusercontent.com/83687942/163713489-d9a2a24b-2b2e-457d-9ec9-e1ae6722e00c.png'></center>
 
 #### 3-3. 가설검정
 ```
