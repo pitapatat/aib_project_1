@@ -2,6 +2,12 @@
 # 뉴스 토픽별 헤드라인 키워드 시각화
 **:rocket: library: pandas, seaborn, BeautifulSoup, konlpy, WordCloud, squarify, gensim, pyLDAvis**
 
+### 0. 목차
+1. [목적](#1-목적)
+2. [데이터셋](#2-데이터셋)
+3. [분석 과정](#3-분석-과정)
+4. [분석 결과](#4-분석-결과)
+5. [한계점 및 보완점](#5-한계점-및-보완점)
 
 ### 1. 목적
 
